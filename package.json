@@ -23,7 +23,7 @@
     "url": "https://github.com/bitExploiter/webpack-deploy-after-build/issues"
   },
   "homepage": "https://github.com/bitExploiter/webpack-deploy-after-build#readme",
-  "devDependencies": {
+  "dependencies": {
     "ncp": "^2.0.0"
   }
 }

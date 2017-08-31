@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc5cc24-ebc4-446c-b532-f3bc50726892" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="82" lean-forward="false" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -48,6 +47,7 @@
         <option value="$PROJECT_DIR$/node_modules/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -92,6 +92,15 @@
               <item name="webpack-deploy-after-build" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-deploy-after-build" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="webpack-deploy-after-build" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="webpack-deploy-after-build" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,12 +136,12 @@
       <option name="presentableId" value="Default" />
       <updated>1504214612193</updated>
       <workItem from="1504214614849" duration="274000" />
-      <workItem from="1504214919125" duration="679000" />
+      <workItem from="1504214919125" duration="881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="953000" />
+    <option name="totallyTimeSpent" value="1155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="23" width="1267" height="834" extended-state="0" />
@@ -184,21 +193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <marker date="1504214238000" expanded="true" signature="0:758" ph="{&quot;name&quot;: &quot;webpack-deploy-after-build&quot;...}" />
-            <marker date="1504214238000" expanded="true" signature="175:238" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1504214238000" expanded="true" signature="256:360" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1504214238000" expanded="true" signature="376:448" ph="[...]" />
-            <marker date="1504214238000" expanded="true" signature="541:625" ph="{&quot;url&quot;: &quot;https://github.com/bitExploiter/webpack-deploy-after-build/issues&quot;...}" />
-            <marker date="1504214238000" expanded="true" signature="731:756" ph="{&quot;ncp&quot;: &quot;^2.0.0&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -211,6 +205,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1504216384000" expanded="true" signature="87:185" ph="{...}" />
+            <marker date="1504216384000" expanded="true" signature="114:122" ph="{...}" />
+            <marker date="1504216384000" expanded="true" signature="248:1063" ph="{...}" />
+            <marker date="1504216384000" expanded="true" signature="324:341" ph="{...}" />
+            <marker date="1504216384000" expanded="true" signature="484:653" ph="{...}" />
+            <marker date="1504216384000" expanded="true" signature="503:571" ph="{...}" />
+            <marker date="1504216384000" expanded="true" signature="722:739" ph="{...}" />
+            <marker date="1504216384000" expanded="true" signature="882:1055" ph="{...}" />
+            <marker date="1504216384000" expanded="true" signature="901:953" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="82" lean-forward="false" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
           <folding />
         </state>
       </provider>
