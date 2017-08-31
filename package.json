@@ -1,6 +1,6 @@
 {
   "name": "webpack-deploy-after-build",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Copy the dist folder to any other location after build.",
   "main": "index.js",
   "scripts": {
