@@ -7,7 +7,9 @@ WebPackDeployAfterBuild({ from: "Directory", to: "Directory" })
 </code></pre> 
 
 **Install** <br>
+<pre lang="bash"><code>
 npm install --save webpack-deploy-after-build
+</code></pre> 
 
 **Include in webpack.config.js**
 <pre lang="javascript"><code>
