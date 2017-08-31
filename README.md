@@ -1,19 +1,28 @@
 # webpack-deploy-after-build
 Copy the dist folder to any other location after build.
-
-**Install**</br>
+<br>
+**Usage**
+<pre lang="javascript"><code>
+WebPackDeployAfterBuild({ from: "Directory", to: "Directory" })
+</code></pre> 
+<br>
+**Install**
+</br>
 npm install --save webpack-deploy-after-build
 
 
 **Include in webpack.config.js**
 
-<pre>var WebPackDeployAfterBuild = require('webpack-deploy-after-build');</pre>
+<pre lang="javascript"><code>
+var WebPackDeployAfterBuild = require('webpack-deploy-after-build');
+</code></pre>            
 
 **add plugin webpack.config.js**
-<pre>
+</br>
+<pre lang="javascript"><code>
 new WebPackDeployAfterBuild({
-            from: path.resolve(__dirname, './dist'),
-            to: '~/Git/website/assets'
-        })
+    from: path.resolve(__dirname, './dist'),
+    to: '~/Git/website/assets'
+})
 
-</pre>
+</code></pre>
