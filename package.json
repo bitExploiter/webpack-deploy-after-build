@@ -1,0 +1,29 @@
+{
+  "name": "webpack-deploy-after-build",
+  "version": "1.0.0",
+  "description": "Copy the dist folder to any other location after build.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitExploiter/webpack-deploy-after-build.git"
+  },
+  "keywords": [
+    "webpack",
+    "deploy",
+    "copy",
+    "assets",
+    "build"
+  ],
+  "author": "Jorge Diaz Gacita <jorgedg1984@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bitExploiter/webpack-deploy-after-build/issues"
+  },
+  "homepage": "https://github.com/bitExploiter/webpack-deploy-after-build#readme",
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  }
+}
