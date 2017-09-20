@@ -1,6 +1,6 @@
 {
   "name": "webpack-deploy-after-build",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Copy the dist folder to any other location after build.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
     "deploy",
     "copy",
     "assets",
-    "build"
+    "build",
+    "dist"
   ],
   "author": "Jorge Diaz Gacita <jorgedg1984@gmail.com>",
   "license": "GPL-3.0",
