@@ -1,6 +1,6 @@
 {
   "name": "webpack-deploy-after-build",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Copy the dist folder to any other location after build.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/bitExploiter/webpack-deploy-after-build#readme",
   "dependencies": {
+    "del": "^3.0.0",
     "ncp": "^2.0.0"
   }
 }

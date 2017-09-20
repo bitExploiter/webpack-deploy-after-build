@@ -3,7 +3,7 @@ Copy the dist folder to any other location after build.
 
 **Usage**
 <pre lang="javascript"><code>
-WebPackDeployAfterBuild({ from: "Directory", to: "Directory" })
+WebPackDeployAfterBuild({ from: "Directory", to: "Directory", clearDestDir: true })
 </code></pre> 
 
 **Install** <br>
