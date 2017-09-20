@@ -2,23 +2,23 @@
 Copy the dist folder to any other location after build.
 
 **Usage**
-<pre lang="javascript"><code>
+```js
 WebPackDeployAfterBuild({ from: "Directory", to: "Directory", clearDestDir: true })
-</code></pre> 
+```
 
-**Install** <br>
-<pre lang="bash"><code>
+**Install**
+
+```shell
 npm install --save webpack-deploy-after-build
-</code></pre> 
+```
 
 **Include in webpack.config.js**
-<pre lang="javascript"><code>
+```js
 var WebPackDeployAfterBuild = require('webpack-deploy-after-build');
-</code></pre>            
+```
 
-**add plugin webpack.config.js**
-</br>
-<pre lang="javascript"><code>
+**Add plugin webpack.config.js**
+```js
 var path = require('path')
 var webpack = require('webpack')
 var WebPackDeployAfterBuild = require('webpack-deploy-after-build');
@@ -51,5 +51,4 @@ if (process.env.NODE_ENV === 'production') {
         })
     ])
 }
-
-</code></pre>
+```
