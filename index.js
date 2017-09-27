@@ -26,21 +26,7 @@ WebPackDeployAfterBuild.prototype.apply = function(compiler) {
             console.log(`Finished deploying ${options.from} to ${options.to}`);
         });
     });
-
-    compiler.plugin("after-emit", (compilation, callback) => {
-        console.log(Object.keys(compilation.assets));
-        console.log("\nExecuting Deploy on after-emit...");
-        if (options.clearDestDir) {
-            del.sync([`${options.to}/*`], {force: true});
-        }
-        ncp(options.from, options.to, function(err) {
-            if (err) {
-                console.error("Err in ncp");
-            }
-            console.log(`Finished deploying ${options.from} to ${options.to}`);
-            callback();
-        });
-    });
+    
 };
 
 module.exports = WebPackDeployAfterBuild;
