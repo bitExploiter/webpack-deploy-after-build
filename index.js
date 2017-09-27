@@ -26,7 +26,7 @@ WebPackDeployAfterBuild.prototype.apply = function(compiler) {
             console.log(`Finished deploying ${options.from} to ${options.to}`);
         });
     });
-    
+
 };
 
 module.exports = WebPackDeployAfterBuild;
